@@ -1,6 +1,6 @@
 <?php
 
-namespace ReactphpX\Service;
+namespace ReactphpX\MicroService;
 
 use React\Http\Browser;
 

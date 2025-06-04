@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use ReactphpX\Service\Client;
+use ReactphpX\MicroService\Client;
 use Monolog\Logger;
 use Monolog\Level;
 use Monolog\Handler\StreamHandler;

@@ -15,7 +15,7 @@ A high-performance service distribution system built with ReactPHP, designed to 
 Install via Composer:
 
 ```bash
-composer require reactphp-x/service -vvv
+composer require reactphp-x/micro-service -vvv
 ```
 
 ## Requirements
@@ -29,7 +29,7 @@ composer require reactphp-x/service -vvv
 ### Basic Setup
 
 ```php
-use ReactphpX\Service\ServerMiddleware;
+use ReactphpX\MicroService\ServerMiddleware;
 use ReactphpX\RegisterCenter\Register;
 use React\Http\HttpServer;
 use React\Socket\SocketServer;

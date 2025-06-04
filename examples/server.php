@@ -27,7 +27,7 @@ $logger->pushHandler($handler);
 $center = new Register(8010, $loop, $logger);
 $center->start();
 
-$serverMiddleware = new ReactphpX\Service\ServerMiddleware($center, $logger);
+$serverMiddleware = new ReactphpX\MicroService\ServerMiddleware($center, $logger);
 
 $http = new React\Http\HttpServer($serverMiddleware);
 

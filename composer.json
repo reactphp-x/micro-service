@@ -1,5 +1,5 @@
 {
-    "name": "reactphp-x/service",
+    "name": "reactphp-x/micro-service",
     "require": {
         "reactphp-x/register-center": "^1.0",
         "wpjscc/react-stream-json": "^1.0",
@@ -8,7 +8,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "ReactphpX\\Service\\": "src/"
+            "ReactphpX\\MicroService\\": "src/"
         }
     },
     "authors": [
