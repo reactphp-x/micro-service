@@ -18,6 +18,6 @@
         }
     ],
     "require-dev": {
-        "monolog/monolog": "^3.9"
+        "monolog/monolog": "^3.0"
     }
 }
